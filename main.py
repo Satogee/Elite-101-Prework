@@ -1,4 +1,3 @@
-
 #purpose of this code is to make a chatbot that gives
 
 
@@ -32,7 +31,7 @@ elif age >= 18:
 
 elif age >= 17:
   print(f"Welcome {name}, aproaching adulthood I see! what can I do for you?:")
-  
+ 
 #prints certain message if their between ages 16-17
 
 if age == 13:
@@ -40,12 +39,11 @@ if age == 13:
 #prints certain message if their age is 13
 
 elif age <= 12:
-  print(f"Welcome little one, how may I help you?")
+  print("Welcome little one, how may I help you?")
 #prints certain message if their between ages 0- 12
 
 elif age <= 15:
     print(f"Welcome {name}, what can I do for you?:")
-  
 #prints certain message if their between ages 14-15
 #def function display_inventory prints all the options for user to choose
 
@@ -123,7 +121,7 @@ def iphone_products():
   airpods = 69.00
   airpods_pro = 100.00
   airpods_pro_max = 160.00
-  print(f"airpods: {airpods}\n\nair pods pro: {airpods_pro}\n\nairpods pro max: {airpods_pro_max}\n")
+  print(f"airpods: {airpods}\n\nairpods pro: {airpods_pro}\n\nairpods pro max: {airpods_pro_max}\n")
   print("Is there anything that interests you?")
   customer_interest = input("If so please enter:")
   if customer_interest =="airpods":
@@ -149,6 +147,8 @@ elif user_choice == 2:
 elif user_choice == 3:
   woman_man_clothes()
 elif user_choice == 4:
-  exit()
+  print("Goodbye, have an nice day!")
+
 else: 
   print("Invalid, please try again")
+
